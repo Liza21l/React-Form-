@@ -1,0 +1,38 @@
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    &_item{
+        width: 150px;
+        height: 250px;
+        border: 2px solid wheat;
+        background: rgba(177, 177, 177, 0.682);
+        border-radius: 25px;
+    }
+    &_name{
+        text-align: center;
+        color: white;
+        font-size: 18px;
+    }
+    &_price{
+        margin: 0px 15px;
+        color: greenyellow;
+    }
+}
+.btnDelete{
+    margin: 20px 5px;
+    border-radius: 5px;
+    border:  none;
+    width: 135px;
+    height: 25px;
+    background: rgb(248, 126, 126);
+    &_btnEdit{
+        margin: 0px 5px;
+        border-radius: 5px;
+        border:  none;
+        width: 135px;
+        height: 25px;
+        color: whitesmoke;
+        background: rgb(126, 157, 248);
+    }
+}

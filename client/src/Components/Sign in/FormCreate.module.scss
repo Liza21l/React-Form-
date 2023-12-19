@@ -1,0 +1,25 @@
+.form{
+    width: 30%;
+    margin: 20px auto;
+    padding: 10px;
+    border:  2px solid #fdec6c;
+    background: rgba(170, 170, 170, 0.548);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    &_input{
+        width: 300px;
+        border-radius: 25px;
+        border: none;
+        height: 35px;
+    }
+    &_description{
+        border-radius: 15px;
+        border: none;
+        width: 250px;
+        height: 120px;
+        resize: none;
+    }
+}
